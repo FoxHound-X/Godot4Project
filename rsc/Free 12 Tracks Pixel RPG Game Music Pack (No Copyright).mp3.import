@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://brss8ptvf7t8"
+path="res://.godot/imported/Free 12 Tracks Pixel RPG Game Music Pack (No Copyright).mp3-67f09837434acae161b537ba4d5e3269.mp3str"
+
+[deps]
+
+source_file="res://rsc/Free 12 Tracks Pixel RPG Game Music Pack (No Copyright).mp3"
+dest_files=["res://.godot/imported/Free 12 Tracks Pixel RPG Game Music Pack (No Copyright).mp3-67f09837434acae161b537ba4d5e3269.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

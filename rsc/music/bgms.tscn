@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dt88klwyg1tal"]
+
+[ext_resource type="AudioStream" uid="uid://brss8ptvf7t8" path="res://rsc/Free 12 Tracks Pixel RPG Game Music Pack (No Copyright).mp3" id="1_qcuq3"]
+
+[node name="BGMS" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_qcuq3")
+autoplay = true

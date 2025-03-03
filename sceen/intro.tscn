@@ -1,0 +1,84 @@
+[gd_scene load_steps=7 format=3 uid="uid://bswjrsjvruje0"]
+
+[ext_resource type="Script" path="res://code/intro.gd" id="1_wpvl0"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cyoul"]
+load_path = "res://.godot/imported/Your paragraph text.png-b79fc279c589b2e88ac2d8d255c4fbda.ctex"
+
+[sub_resource type="Animation" id="Animation_ye02n"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_y3eio"]
+resource_name = "faded in"
+length = 6.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1, 6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(0, 0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_se21h"]
+resource_name = "faded out"
+length = 4.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("ColorRect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 0), Color(0, 0, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_routl"]
+_data = {
+"RESET": SubResource("Animation_ye02n"),
+"faded in": SubResource("Animation_y3eio"),
+"faded out": SubResource("Animation_se21h")
+}
+
+[node name="Intro" type="Node2D"]
+script = ExtResource("1_wpvl0")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(573, 323)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(575, 326)
+scale = Vector2(1.067, 1)
+texture = SubResource("CompressedTexture2D_cyoul")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -96.0
+offset_top = -141.0
+offset_right = -56.0
+offset_bottom = -101.0
+scale = Vector2(35.36, 23.5913)
+color = Color(0, 0, 0, 1)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_routl")
+}

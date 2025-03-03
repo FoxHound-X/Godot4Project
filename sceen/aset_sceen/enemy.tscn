@@ -1,0 +1,107 @@
+[gd_scene load_steps=18 format=3 uid="uid://b7c7wruuj8uby"]
+
+[ext_resource type="PackedScene" uid="uid://thag4ryugnwv" path="res://sceen/aset_sceen/killzone.tscn" id="1_5op3x"]
+[ext_resource type="Texture2D" uid="uid://d254dd237feaw" path="res://rsc/Enemy/walk_1.png" id="1_p046m"]
+[ext_resource type="Script" path="res://code/enemy.gd" id="1_rsmdd"]
+[ext_resource type="Texture2D" uid="uid://c4wrv6nde6qee" path="res://rsc/Enemy/attack1_1.png" id="2_u752l"]
+[ext_resource type="Texture2D" uid="uid://uht5dnrtpgtn" path="res://rsc/Enemy/walk_2.png" id="2_wx0ou"]
+[ext_resource type="Texture2D" uid="uid://drbfsk7y1c25j" path="res://rsc/Enemy/walk_3.png" id="3_ftepe"]
+[ext_resource type="Texture2D" uid="uid://d3meobvp3p7s6" path="res://rsc/Enemy/attack1_2.png" id="3_wqoq4"]
+[ext_resource type="Texture2D" uid="uid://btdl74q5dnrw2" path="res://rsc/Enemy/walk_4.png" id="4_6gd1d"]
+[ext_resource type="Texture2D" uid="uid://djw2yf08vcsnc" path="res://rsc/Enemy/attack1_3.png" id="4_qd4q7"]
+[ext_resource type="Texture2D" uid="uid://bvanvwyugol0s" path="res://rsc/Enemy/attack1_4.png" id="5_8se7a"]
+[ext_resource type="Texture2D" uid="uid://b72cm2n3di1a1" path="res://rsc/Enemy/walk_5.png" id="5_mmw1f"]
+[ext_resource type="Texture2D" uid="uid://npgtpljo5n52" path="res://rsc/Enemy/walk_6.png" id="6_5law5"]
+[ext_resource type="Texture2D" uid="uid://dvfrm4f2v4oe2" path="res://rsc/Enemy/attack1_5.png" id="6_dem0a"]
+[ext_resource type="Texture2D" uid="uid://di67akc2245eg" path="res://rsc/Enemy/attack1_6.png" id="7_ekuw5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_154tl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_u752l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_wqoq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qd4q7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8se7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_dem0a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ekuw5")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_p046m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wx0ou")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ftepe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_6gd1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mmw1f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5law5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dthwc"]
+size = Vector2(17, 35)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6t7u7"]
+size = Vector2(6.096, 108.373)
+
+[node name="Enemy" type="Node2D"]
+scale = Vector2(0.801, 0.801)
+script = ExtResource("1_rsmdd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(1, -10)
+sprite_frames = SubResource("SpriteFrames_154tl")
+animation = &"attack"
+autoplay = "default"
+frame_progress = 0.886327
+
+[node name="RayCastRight" type="RayCast2D" parent="."]
+position = Vector2(0, 15)
+target_position = Vector2(19, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+position = Vector2(0, 15)
+target_position = Vector2(-18, 0)
+
+[node name="Killzone" parent="." instance=ExtResource("1_5op3x")]
+visibility_layer = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+visibility_layer = 2
+position = Vector2(-0.5, 0.5)
+shape = SubResource("RectangleShape2D_dthwc")
+
+[node name="kill" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="kill"]
+position = Vector2(-0.5, -0.5)
+scale = Vector2(1.14829, 0.230685)
+shape = SubResource("RectangleShape2D_6t7u7")
+
+[connection signal="area_entered" from="kill" to="." method="_on_kill_area_entered"]
