@@ -16,6 +16,7 @@ scale = Vector2(0.658898, 0.623036)
 texture = ExtResource("1_o72g5")
 
 [node name="Label" type="Label" parent="."]
+layout_mode = 0
 offset_left = 492.0
 offset_top = 189.0
 offset_right = 678.0
@@ -25,16 +26,32 @@ theme_override_font_sizes/font_size = 31
 text = "PENJELASAN"
 
 [node name="Label2" type="Label" parent="."]
-offset_left = 250.0
-offset_top = 228.0
-offset_right = 929.0
-offset_bottom = 522.0
+layout_mode = 0
+offset_left = -147.0
+offset_top = 263.0
+offset_right = 1324.0
+offset_bottom = 689.0
 scale = Vector2(0.979574, 1)
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 21
+theme_override_font_sizes/font_size = 22
+text = "Dalam Dharmasastra, hukum alam disebut Rta, yaitu keteraturan
+ kosmis yang mengatur alam semesta, moralitas, dan tatanan sosial.Rta 
+menjadi dasar dharma, yang
+ harus dipatuhi agar tercipta keseimbangan.
+ Pelanggaran terhadap hukum ini akan
+ menimbulkan kekacauan dan penderitaan.
+
+
+
+
+
+
+
+"
 horizontal_alignment = 1
 
 [node name="Button" type="Button" parent="."]
+layout_mode = 0
 offset_left = 847.0
 offset_top = 477.0
 offset_right = 933.0

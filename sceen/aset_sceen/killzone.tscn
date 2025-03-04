@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://thag4ryugnwv"]
 
-[ext_resource type="Script" path="res://code/killzone.gd" id="1_l8a7q"]
+[ext_resource type="Script" uid="uid://bim0t1bly3uea" path="res://code/killzone.gd" id="1_l8a7q"]
 [ext_resource type="AudioStream" uid="uid://e0v01ci0acpy" path="res://rsc/roblox-death-sound-effect.mp3" id="2_8qin1"]
 
 [sub_resource type="Animation" id="Animation_8sy64"]
@@ -36,8 +36,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_8w6dw"]
 _data = {
-"RESET": SubResource("Animation_8sy64"),
-"fall": SubResource("Animation_ikxr4")
+&"RESET": SubResource("Animation_8sy64"),
+&"fall": SubResource("Animation_ikxr4")
 }
 
 [node name="Killzone" type="Area2D"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=27 format=3 uid="uid://dye0r0p6401ac"]
 
-[ext_resource type="Script" path="res://code/player.gd" id="1_a1rt4"]
+[ext_resource type="Script" uid="uid://dtpto0a07do2g" path="res://code/player.gd" id="1_a1rt4"]
 [ext_resource type="Texture2D" uid="uid://ruugragxod08" path="res://rsc/FinnSprite.png" id="1_t6oo8"]
 [ext_resource type="AudioStream" uid="uid://byi2x3nn7rc3l" path="res://rsc/brackeys_platformer_assets/sounds/jump_07.wav" id="3_ho067"]
 
@@ -172,8 +172,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_7i54t"]
 _data = {
-"RESET": SubResource("Animation_wk3ln"),
-"jumpsfx": SubResource("Animation_dloog")
+&"RESET": SubResource("Animation_wk3ln"),
+&"jumpsfx": SubResource("Animation_dloog")
 }
 
 [node name="Player" type="CharacterBody2D"]

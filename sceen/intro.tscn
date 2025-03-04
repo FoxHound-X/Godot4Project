@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://bswjrsjvruje0"]
 
-[ext_resource type="Script" path="res://code/intro.gd" id="1_wpvl0"]
+[ext_resource type="Script" uid="uid://bhhcjmlvclyfr" path="res://code/intro.gd" id="1_wpvl0"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cyoul"]
 load_path = "res://.godot/imported/Your paragraph text.png-b79fc279c589b2e88ac2d8d255c4fbda.ctex"
@@ -54,9 +54,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_routl"]
 _data = {
-"RESET": SubResource("Animation_ye02n"),
-"faded in": SubResource("Animation_y3eio"),
-"faded out": SubResource("Animation_se21h")
+&"RESET": SubResource("Animation_ye02n"),
+&"faded in": SubResource("Animation_y3eio"),
+&"faded out": SubResource("Animation_se21h")
 }
 
 [node name="Intro" type="Node2D"]

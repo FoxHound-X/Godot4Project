@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="Dharmasastra : Demo"
-run/main_scene="res://sceen/Materi/materilevel1/materi1.tscn"
-config/features=PackedStringArray("4.3", "Mobile")
+run/main_scene="uid://bfvyyhsy8vbmx"
+config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]

@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://b7c7wruuj8uby" path="res://sceen/aset_sceen/enemy.tscn" id="5_050bd"]
 [ext_resource type="FontFile" uid="uid://dvksyv4ku5kpa" path="res://rsc/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf" id="6_pf3iy"]
 [ext_resource type="FontFile" uid="uid://xu8sp3nism15" path="res://rsc/brackeys_platformer_assets/fonts/PixelOperator8.ttf" id="7_qbkv3"]
-[ext_resource type="Script" path="res://code/system.gd" id="8_d27p0"]
+[ext_resource type="Script" uid="uid://byl3fvqg0ukl6" path="res://code/system.gd" id="8_d27p0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uelmr"]
 texture = ExtResource("2_5iveh")
@@ -205,8 +205,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_6otum"]
 _data = {
-"RESET": SubResource("Animation_7j3pb"),
-"move": SubResource("Animation_2f8dh")
+&"RESET": SubResource("Animation_7j3pb"),
+&"move": SubResource("Animation_2f8dh")
 }
 
 [node name="SystemGame" type="Node2D"]
@@ -267,7 +267,7 @@ collision_mask = 2
 
 [node name="AnimationPlayer2" type="AnimationPlayer" parent="Books"]
 libraries = {
-"": SubResource("AnimationLibrary_6otum")
+&"": SubResource("AnimationLibrary_6otum")
 }
 autoplay = "move"
 
@@ -300,7 +300,7 @@ scale = Vector2(0.244, 0.208)
 [node name="AnimationPlayer2" type="AnimationPlayer" parent="Books2"]
 root_node = NodePath("../../Books/AnimationPlayer")
 libraries = {
-"": SubResource("AnimationLibrary_6otum")
+&"": SubResource("AnimationLibrary_6otum")
 }
 autoplay = "move"
 
