@@ -1,0 +1,16 @@
+[gd_resource type="AnimatedTexture" load_steps=3 format=3 uid="uid://tscyk73rsboh"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qmjt2"]
+load_path = "res://.godot/imported/Water.png-936a6977d3814c4db9fb45ac749380f0.ctex"
+
+[sub_resource type="MeshTexture" id="MeshTexture_760ee"]
+base_texture = SubResource("CompressedTexture2D_qmjt2")
+
+[resource]
+frames = 5
+frame_0/texture = SubResource("MeshTexture_760ee")
+frame_0/duration = 0.0
+frame_1/duration = 1.0
+frame_2/duration = 1.0
+frame_3/duration = 1.0
+frame_4/duration = 1.0

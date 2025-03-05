@@ -1,0 +1,68 @@
+[gd_scene load_steps=10 format=3 uid="uid://cum1da1ptjrb3"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qmjt2"]
+load_path = "res://.godot/imported/Water.png-936a6977d3814c4db9fb45ac749380f0.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eobu6"]
+atlas = SubResource("CompressedTexture2D_qmjt2")
+region = Rect2(0, 0, 33, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kvc44"]
+atlas = SubResource("CompressedTexture2D_qmjt2")
+region = Rect2(33, 0, 33, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kchij"]
+atlas = SubResource("CompressedTexture2D_qmjt2")
+region = Rect2(66, 0, 33, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ghvqq"]
+atlas = SubResource("CompressedTexture2D_qmjt2")
+region = Rect2(99, 0, 33, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gr2t1"]
+atlas = SubResource("CompressedTexture2D_qmjt2")
+region = Rect2(132, 0, 33, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qrqvk"]
+atlas = SubResource("CompressedTexture2D_qmjt2")
+region = Rect2(165, 0, 33, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iegl5"]
+atlas = SubResource("CompressedTexture2D_qmjt2")
+region = Rect2(198, 0, 33, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_udgpw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eobu6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kvc44")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kchij")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ghvqq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gr2t1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qrqvk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iegl5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 6.0
+}]
+
+[node name="Water" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_udgpw")
+autoplay = "default"
+frame_progress = 0.299171
