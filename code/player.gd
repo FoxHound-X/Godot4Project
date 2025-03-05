@@ -5,7 +5,15 @@ const SPEED = 150.0
 const JUMP_VELOCITY = -200.0
 @onready var animated_sprite = $AnimatedSprite2D
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
+@onready var actionable_finder: Area2D = $direction/ActionableFinder
 
+
+func  _unhandled_input(event: InputEvent) -> void:
+	if Input.is_action_just_pressed("ui_accept"):
+		var actionables = actionable_finder.get_overlapping_areas()
+		if actionables.size() > 0:
+			actionables[0].action()
+			return
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.

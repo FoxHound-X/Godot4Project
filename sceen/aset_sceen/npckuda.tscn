@@ -1,0 +1,39 @@
+[gd_scene load_steps=7 format=3 uid="uid://de78v5nmdxlob"]
+
+[ext_resource type="Texture2D" uid="uid://cpd8uuedadcc0" path="res://rsc/npckuda/Knight_idle1.png" id="1_1n5di"]
+[ext_resource type="Texture2D" uid="uid://b77a1gsrn47d" path="res://rsc/npckuda/Knight_idle2.png" id="2_v75bc"]
+[ext_resource type="Texture2D" uid="uid://b6potjgnhnrvt" path="res://rsc/npckuda/Knight_idle3.png" id="3_baf1p"]
+[ext_resource type="Texture2D" uid="uid://coyafwhpy4dce" path="res://rsc/npckuda/Knight_idle4.png" id="4_n47wb"]
+[ext_resource type="Texture2D" uid="uid://h24kc2gcp6vm" path="res://rsc/npckuda/Knight_idle5.png" id="5_nrmwb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_422u5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_1n5di")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_v75bc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_baf1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_n47wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nrmwb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="npckuda" type="StaticBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -10)
+sprite_frames = SubResource("SpriteFrames_422u5")
+autoplay = "default"
+frame_progress = 0.471569
+flip_h = true

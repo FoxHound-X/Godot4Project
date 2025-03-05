@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://crb4jcqhxplu2"
+path="res://.godot/imported/npckuda.dialogue-a393b0b9249286a69ec5a9811e447b45.tres"
+
+[deps]
+
+source_file="res://Dialog/npckuda.dialogue"
+dest_files=["res://.godot/imported/npckuda.dialogue-a393b0b9249286a69ec5a9811e447b45.tres"]
+
+[params]
+
+defaults=true

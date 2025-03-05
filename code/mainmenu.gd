@@ -9,7 +9,7 @@ func _on_start_pressed() -> void:
 	timer.start()
 
 func _on_timer_timeout() -> void:
-	get_tree().change_scene_to_file("res://sceen/Level/level1.tscn")
+	get_tree().change_scene_to_file("res://sceen/Materi/materilevel1/materi1.tscn")
 	Engine.time_scale = 1
 
 

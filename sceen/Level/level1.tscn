@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://4mihu617ms5q"]
+[gd_scene load_steps=35 format=3 uid="uid://4mihu617ms5q"]
 
 [ext_resource type="Texture2D" uid="uid://bsm6w8olkspi0" path="res://rsc/brackeys_platformer_assets/sprites/world_tileset.png" id="2_7bhrm"]
 [ext_resource type="PackedScene" uid="uid://dye0r0p6401ac" path="res://sceen/aset_sceen/player.tscn" id="3_je4a5"]
@@ -8,6 +8,9 @@
 [ext_resource type="PackedScene" uid="uid://b7c7wruuj8uby" path="res://sceen/aset_sceen/enemy.tscn" id="6_jw3bd"]
 [ext_resource type="PackedScene" uid="uid://dpdcf0w38qtr" path="res://sceen/aset_sceen/books.tscn" id="7_xwjf4"]
 [ext_resource type="PackedScene" uid="uid://dgf436wd4ximr" path="res://sceen/aset_sceen/finish.tscn" id="9_m0exh"]
+[ext_resource type="PackedScene" uid="uid://de78v5nmdxlob" path="res://sceen/aset_sceen/npckuda.tscn" id="9_mf5cs"]
+[ext_resource type="PackedScene" uid="uid://crcceu37nv2l" path="res://sceen/aset_sceen/actionable.tscn" id="10_g0yoj"]
+[ext_resource type="Resource" uid="uid://crb4jcqhxplu2" path="res://Dialog/npckuda.dialogue" id="11_hgh0x"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6gal7"]
 texture = ExtResource("2_7bhrm")
@@ -396,6 +399,8 @@ _data = {
 &"new_animation": SubResource("Animation_1i1k0")
 }
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_v2q61"]
+
 [node name="Level1" type="Area2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -437,7 +442,6 @@ autowrap_mode = 2
 metadata/_edit_use_anchors_ = true
 
 [node name="Killzone" parent="." instance=ExtResource("5_502p1")]
-visible = false
 position = Vector2(103, 78)
 collision_mask = 2
 
@@ -506,3 +510,13 @@ libraries = {
 &"": SubResource("AnimationLibrary_56sjy")
 }
 autoplay = "new_animation"
+
+[node name="npckuda" parent="." instance=ExtResource("9_mf5cs")]
+position = Vector2(57, 45)
+
+[node name="Actionable" parent="npckuda" instance=ExtResource("10_g0yoj")]
+dialogue_resource = ExtResource("11_hgh0x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="npckuda/Actionable"]
+scale = Vector2(1.45237, 1.52096)
+shape = SubResource("CircleShape2D_v2q61")
