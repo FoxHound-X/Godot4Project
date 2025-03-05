@@ -1,10 +1,8 @@
-[gd_scene load_steps=11 format=3 uid="uid://b24oh2qowe5qv"]
+[gd_scene load_steps=9 format=3 uid="uid://b24oh2qowe5qv"]
 
 [ext_resource type="Script" uid="uid://dse3y8l4m5lhi" path="res://Dialog/doalogdesign/balloon.gd" id="1_36de5"]
 [ext_resource type="PackedScene" uid="uid://ckvgyvclnwggo" path="res://addons/dialogue_manager/dialogue_label.tscn" id="2_a8ve6"]
-[ext_resource type="FontFile" uid="uid://c05177rhajhqi" path="res://rsc/fonts/VeniteAdoremus-rgRBA.ttf" id="3_6rtxu"]
 [ext_resource type="Script" uid="uid://bb52rsfwhkxbn" path="res://addons/dialogue_manager/dialogue_responses_menu.gd" id="3_72ixx"]
-[ext_resource type="FontFile" uid="uid://b13p7idbv5b15" path="res://rsc/papyrus.ttf" id="3_y7qb0"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_spyqn"]
 bg_color = Color(0, 0, 0, 1)
@@ -119,7 +117,6 @@ scroll_active = false
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_fonts/normal_font = ExtResource("3_6rtxu")
 text = "Dialogue..."
 
 [node name="Responses" type="MarginContainer" parent="Balloon"]
@@ -129,10 +126,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -147.0
-offset_top = -426.0
-offset_right = 494.0
-offset_bottom = -22.0
+offset_left = -101.0
+offset_top = -555.0
+offset_right = 540.0
+offset_bottom = -151.0
 grow_horizontal = 2
 grow_vertical = 0
 
@@ -146,7 +143,6 @@ response_template = NodePath("ResponseExample")
 
 [node name="ResponseExample" type="Button" parent="Balloon/Responses/ResponsesMenu"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_y7qb0")
 text = "Response example"
 
 [connection signal="gui_input" from="Balloon" to="." method="_on_balloon_gui_input"]

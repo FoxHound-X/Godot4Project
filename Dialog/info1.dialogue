@@ -1,0 +1,11 @@
+~ start
+dyan: [speed=0.5]Weh, Info Ape ni Icikbos
+~ Info
+System: [speed=0.5]Hai, Saya Akan Memberikan informasi Menarik Tentang Dharmasastra
+System: [speed=0.5]Dharmasastra adalah kumpulan aturan, ajaran, dan pengetahuan hukum Hindu yang berkaitan dengan agama, kewajiban, dan kehidupan.
+System: [speed=0.5]Kata "dharmasastra" berasal dari bahasa Sansekerta, yaitu "dharma" yang berarti hukum, keadilan, moral, dan kewajiban, serta "sastra" yang berarti ajaran, nasihat, aturan, dan teori
+System: [speed=0.5]Informasi Selanjutnya Akan Anda dapatkan di Sign Selanjutnya, Senang bertemu dengan anda
+
+- Mengulang Informasi => Info
+- Selesai => END!
+=> END

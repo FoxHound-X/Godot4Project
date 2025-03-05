@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dxlbt2gksxeav"]
+
+[ext_resource type="Texture2D" uid="uid://bwl3l54ngkkmx" path="res://rsc/Sign Posts/01.png" id="1_qg4wu"]
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.499318, 0.532492)
+texture = ExtResource("1_qg4wu")

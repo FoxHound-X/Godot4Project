@@ -35,5 +35,5 @@ animations = [{
 position = Vector2(0, -10)
 sprite_frames = SubResource("SpriteFrames_422u5")
 autoplay = "default"
-frame_progress = 0.471569
+frame_progress = 0.677811
 flip_h = true
