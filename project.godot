@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Dharmasastra : Demo"
-run/main_scene="uid://bswjrsjvruje0"
+run/main_scene="uid://shifdn8ugr7g"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 

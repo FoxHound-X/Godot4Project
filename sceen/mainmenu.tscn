@@ -165,6 +165,21 @@ texture = ExtResource("2_ptnva")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_mdmj3")
 
+[sub_resource type="Animation" id="Animation_oq3ue"]
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(771.697, -121.853), Vector2(783.503, -22.4466)]
+}
+
 [sub_resource type="Animation" id="Animation_kh3ts"]
 resource_name = "new_animation"
 loop_mode = 2
@@ -179,21 +194,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Vector2(242.564, 6.41335), Vector2(315.548, -89.7865)]
-}
-
-[sub_resource type="Animation" id="Animation_oq3ue"]
-loop_mode = 2
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Vector2(771.697, -121.853), Vector2(783.503, -22.4466)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_cdiid"]

@@ -11,7 +11,7 @@ size = Vector2(32, 9)
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = SubResource("CompressedTexture2D_36c62")
 region_enabled = true
-region_rect = Rect2(17, 16, 31, 9)
+region_rect = Rect2(15.9042, 47.7721, 32.275, 9.60432)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -0.5)
