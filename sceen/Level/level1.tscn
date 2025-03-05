@@ -9,7 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://dpdcf0w38qtr" path="res://sceen/aset_sceen/books.tscn" id="7_xwjf4"]
 [ext_resource type="PackedScene" uid="uid://dgf436wd4ximr" path="res://sceen/aset_sceen/finish.tscn" id="9_m0exh"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lxwia"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6gal7"]
 texture = ExtResource("2_7bhrm")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -165,7 +165,7 @@ texture = ExtResource("2_7bhrm")
 
 [sub_resource type="TileSet" id="TileSet_mfc7k"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_lxwia")
+sources/0 = SubResource("TileSetAtlasSource_6gal7")
 
 [sub_resource type="SystemFont" id="SystemFont_db8ck"]
 
