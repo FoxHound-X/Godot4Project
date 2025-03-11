@@ -8,7 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://ctuwq84tmpctt" path="res://rsc/Cave/Water.png" id="4_f4hd3"]
 [ext_resource type="PackedScene" uid="uid://thag4ryugnwv" path="res://sceen/aset_sceen/killzone.tscn" id="9_d2cfm"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_102k7"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f4hd3"]
 texture = ExtResource("1_g43do")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -296,7 +296,7 @@ texture = ExtResource("4_f4hd3")
 
 [sub_resource type="TileSet" id="TileSet_wq1xv"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_102k7")
+sources/0 = SubResource("TileSetAtlasSource_f4hd3")
 sources/1 = SubResource("TileSetAtlasSource_mf06q")
 sources/2 = SubResource("TileSetAtlasSource_g43do")
 sources/5 = SubResource("TileSetAtlasSource_hbhcp")

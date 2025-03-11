@@ -4,6 +4,10 @@ extends CanvasLayer
 ## The action to use for advancing the dialogue
 @export var next_action: StringName = &"ui_accept"
 
+##talksfx
+@onready var talk_sfx: AudioStreamPlayer2D = $TalkSFX
+
+
 ## The action to use to skip typing the dialogue
 @export var skip_action: StringName = &"ui_cancel"
 
@@ -171,6 +175,10 @@ func _on_balloon_gui_input(event: InputEvent) -> void:
 
 func _on_responses_menu_response_selected(response: DialogueResponse) -> void:
 	next(response.next_id)
+
+func _on_dialogue_label_spoke(letter: String, letter_index: int, speed: float) -> void:
+	if not letter in  [".", " "]:
+		talk_sfx.play()
 
 
 #endregion

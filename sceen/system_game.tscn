@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://c7sjjamfsorot"]
+[gd_scene load_steps=18 format=3 uid="uid://c7sjjamfsorot"]
 
 [ext_resource type="PackedScene" uid="uid://dye0r0p6401ac" path="res://sceen/aset_sceen/player.tscn" id="1_450jt"]
 [ext_resource type="Texture2D" uid="uid://bsm6w8olkspi0" path="res://rsc/brackeys_platformer_assets/sprites/world_tileset.png" id="2_5iveh"]
@@ -9,6 +9,7 @@
 [ext_resource type="FontFile" uid="uid://dvksyv4ku5kpa" path="res://rsc/brackeys_platformer_assets/fonts/PixelOperator8-Bold.ttf" id="6_pf3iy"]
 [ext_resource type="FontFile" uid="uid://xu8sp3nism15" path="res://rsc/brackeys_platformer_assets/fonts/PixelOperator8.ttf" id="7_qbkv3"]
 [ext_resource type="Script" uid="uid://byl3fvqg0ukl6" path="res://code/system.gd" id="8_d27p0"]
+[ext_resource type="PackedScene" uid="uid://dxlbt2gksxeav" path="res://sceen/aset_sceen/sign.tscn" id="10_5sf7s"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_uelmr"]
 texture = ExtResource("2_5iveh")
@@ -307,3 +308,6 @@ autoplay = "move"
 [node name="Books3" parent="." instance=ExtResource("4_myai5")]
 position = Vector2(341, -19)
 scale = Vector2(0.246502, 0.291858)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("10_5sf7s")]
+position = Vector2(159, 17)
