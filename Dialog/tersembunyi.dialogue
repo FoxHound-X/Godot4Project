@@ -1,0 +1,19 @@
+~ start
+Setia: Bang, Sebenernya ini game di buat untuk tugas agama njeer
+Setia: Dan yap kau menemukan ku, gampang si sebenernya nemuin gweh anjai..
+Setia: Oh ya, anu... eee Kalo kalian mau game ini mau di lanjutin series nya
+Setia: Kalian Mau Tydac?
+
+- Mau => Mau
+- TakNok => enggak
+
+~ enggak
+Setia: Njeer, yaudah si.. sekian terima gaji
+=> END
+
+~ Mau
+Setia: Wokeh Bialng aja Noh ama orang nya
+Setia: Ya begitulah dia
+=> END
+
+=> END

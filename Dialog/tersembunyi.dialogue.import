@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://bhjv26e0fx1q4"
+path="res://.godot/imported/tersembunyi.dialogue-1b3a838bde93c5d8f3ffef7b70646ff0.tres"
+
+[deps]
+
+source_file="res://Dialog/tersembunyi.dialogue"
+dest_files=["res://.godot/imported/tersembunyi.dialogue-1b3a838bde93c5d8f3ffef7b70646ff0.tres"]
+
+[params]
+
+defaults=true

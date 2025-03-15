@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://btvwiqp6rnq7j"]
+
+[ext_resource type="Script" uid="uid://chfpxr2g317ch" path="res://code/finish_2.gd" id="1_kjdba"]
+[ext_resource type="Texture2D" uid="uid://c13j2c2f3nqy3" path="res://rsc/tilemap.png" id="2_7bwfy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j2t54"]
+size = Vector2(18, 23)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5g60x"]
+atlas = ExtResource("2_7bwfy")
+region = Rect2(207, 96, 23, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o3bgv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5g60x")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Finish2" type="Area2D"]
+script = ExtResource("1_kjdba")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0.5)
+shape = SubResource("RectangleShape2D_j2t54")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_o3bgv")
+frame_progress = 0.0934861
