@@ -1,0 +1,21 @@
+~ start
+Dyan: Lah, kamu lagi
+Tentara: Hehe, Seperti Biasa..
+Dyan: oh ya, aku mau nanya tentang Itu lagi pokoknya kau haru jawab njer
+Tentara: alamak :\ .... oke oke
+Tentara: Jadi gini le, Kamu itu sebener nya dari masa depan dan di utus untuk menjalankan Misi
+Tentara: Nah kalau mau tau info selanjutnya cari aja Kakek Kakek di desa
+Tentara: Kau jalan aja terus ketemu lah desa, nanti dapet info lebih lengkap
+Dyan: ... Owalah.. anjeeer gimana caranya ku pulang woilah..
+Tentara: Mana ku tau bg, makanya cari dulu kakek kakek itu
+
+- Mau Tu Info Menarik? => InfoMenarik
+- Gak deh Pengen Lanjut Main => END
+
+~ InfoMenarik
+System: Ola Mas, Ketemu lagi nih
+System: Sebenernya si Developer gabut doang buat teks nya ini coy.. Hehe..
+System: Coba Tanya Pak Yudi Game nya bagus gak :) 
+=> END
+
+=> END

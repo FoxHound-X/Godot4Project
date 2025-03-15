@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://krloaj5t5oex"
+path="res://.godot/imported/informasipemain.dialogue-5acd3f2b7027b64c1097e46c2ee2fb3c.tres"
+
+[deps]
+
+source_file="res://Dialog/informasipemain.dialogue"
+dest_files=["res://.godot/imported/informasipemain.dialogue-5acd3f2b7027b64c1097e46c2ee2fb3c.tres"]
+
+[params]
+
+defaults=true
