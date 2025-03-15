@@ -1,11 +1,15 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+System: Ola mas Mau Tau Tentang Materi Dharmasastra gak?
+
+- Boleh Tu
+- Gak Deh, Mending Main => END
+
+~ Dharmasastra
+System: Dalam Dharmasastra, konsep dharma mencakup kewajiban untuk menegakkan kebenaran dan keadilan, yang secara langsung berkaitan dengan upaya melawan kejahatan.
+System: Dharmasastra mengatur hukum dan keadilan, termasuk hukuman bagi pelaku kejahatan, dengan tujuan melindungi masyarakat dan memulihkan keadilan.
+System: Selain itu, Dharmasastra juga menekankan pentingnya etika dan moral sebagai landasan perilaku yang benar, sehingga melawan kejahatan dianggap sebagai tindakan etis.
+Dyan: Apa Hubungan nya dengan ku?
+System: Nanti Juga Kamu Tau..
+=> END
+
 => END
