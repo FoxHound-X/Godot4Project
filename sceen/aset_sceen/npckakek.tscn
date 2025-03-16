@@ -1,0 +1,91 @@
+[gd_scene load_steps=13 format=3 uid="uid://t86o30ko7g22"]
+
+[ext_resource type="Texture2D" uid="uid://bv56pdpn0gn8b" path="res://rsc/NPCKakek/IDLE.png" id="1_4seux"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_755eg"]
+atlas = ExtResource("1_4seux")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oej64"]
+atlas = ExtResource("1_4seux")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ilfj7"]
+atlas = ExtResource("1_4seux")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4luad"]
+atlas = ExtResource("1_4seux")
+region = Rect2(288, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xsgj0"]
+atlas = ExtResource("1_4seux")
+region = Rect2(384, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1lknp"]
+atlas = ExtResource("1_4seux")
+region = Rect2(480, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8hu7i"]
+atlas = ExtResource("1_4seux")
+region = Rect2(576, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lnlww"]
+atlas = ExtResource("1_4seux")
+region = Rect2(672, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3cehs"]
+atlas = ExtResource("1_4seux")
+region = Rect2(768, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kkbo4"]
+atlas = ExtResource("1_4seux")
+region = Rect2(864, 0, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hui45"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_755eg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oej64")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ilfj7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4luad")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xsgj0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1lknp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8hu7i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lnlww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3cehs")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kkbo4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 9.0
+}]
+
+[node name="Npckakek" type="StaticBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-0.999999, -20)
+scale = Vector2(1.11198, 1.11198)
+sprite_frames = SubResource("SpriteFrames_hui45")
+autoplay = "default"
+frame_progress = 0.771264
+flip_h = true

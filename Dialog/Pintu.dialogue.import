@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://dh4ij8epssei2"
+path="res://.godot/imported/Pintu.dialogue-77d8ffd017c635f9558a19fc006a7fc2.tres"
+
+[deps]
+
+source_file="res://Dialog/Pintu.dialogue"
+dest_files=["res://.godot/imported/Pintu.dialogue-77d8ffd017c635f9558a19fc006a7fc2.tres"]
+
+[params]
+
+defaults=true
