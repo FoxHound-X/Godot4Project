@@ -1,0 +1,20 @@
+~ start
+Syetem: Hai, Kamu Telah masuk Zona Amaan tidak ada musuh Di Sini
+Syetem: Aku Punya Misi Kecil Untuk Mu, Bersedia Menyelesaikan Nya?
+
+- Ya, Tentu Saja => Ya
+- Masih Ragu => Ragu
+- Tidak, Saya Tidak bisa => END!
+
+~ Ya
+Syetem: Baiklah, Saya memiliki Kode Yang Telah di Enkripsi Di sini "U2VsYW1hdCBVbnR1ayBBbmRhIFRlbGFoIG1lbmVyamVtYWhrYW4gSW5p"
+Syetem: Hint = Jenis Enkripsi mengubah data biner menjadi format string ASCII
+Syetem: Silahkan Di Pecahkan dan jika berhasil akan di beri Reward Oleh Developer sebesar 2K :>
+=> END
+
+~ Ragu
+Syetem: Tidak apa, Mungkin Anda Bisa Memikirkan nya terlebih dahulu....
+=> start
+
+
+=> END

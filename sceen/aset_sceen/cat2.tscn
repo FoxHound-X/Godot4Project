@@ -1,0 +1,66 @@
+[gd_scene load_steps=10 format=3 uid="uid://djk5xxaol2rc"]
+
+[ext_resource type="Texture2D" uid="uid://f70hi4xhh8xu" path="res://rsc/AllCatsDemo/TigerCatFree/IdleCatt.png" id="1_fa0h8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lc0ac"]
+atlas = ExtResource("1_fa0h8")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b8vx0"]
+atlas = ExtResource("1_fa0h8")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8stpq"]
+atlas = ExtResource("1_fa0h8")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_opxpj"]
+atlas = ExtResource("1_fa0h8")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnf61"]
+atlas = ExtResource("1_fa0h8")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sr4ev"]
+atlas = ExtResource("1_fa0h8")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gd1hj"]
+atlas = ExtResource("1_fa0h8")
+region = Rect2(192, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_p7ivo"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lc0ac")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b8vx0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8stpq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_opxpj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wnf61")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sr4ev")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gd1hj")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[node name="Cat2" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_p7ivo")
+autoplay = "default"
+frame_progress = 0.025244
+flip_h = true

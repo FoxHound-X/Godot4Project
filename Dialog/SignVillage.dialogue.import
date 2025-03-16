@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://ctmfmrbmr584x"
+path="res://.godot/imported/SignVillage.dialogue-3356f1c632ce47035ba54f83dde96d82.tres"
+
+[deps]
+
+source_file="res://Dialog/SignVillage.dialogue"
+dest_files=["res://.godot/imported/SignVillage.dialogue-3356f1c632ce47035ba54f83dde96d82.tres"]
+
+[params]
+
+defaults=true
