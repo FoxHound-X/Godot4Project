@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://dnn0dnnrmx0hg"
+path="res://.godot/imported/Kaindra.dialogue-3d9eb9affbd7aba34625a5cd2cc6fff8.tres"
+
+[deps]
+
+source_file="res://Dialog/Kaindra.dialogue"
+dest_files=["res://.godot/imported/Kaindra.dialogue-3d9eb9affbd7aba34625a5cd2cc6fff8.tres"]
+
+[params]
+
+defaults=true

@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://loa1u4ij01pw"
+path="res://.godot/imported/signlv5.dialogue-fa256e35fc5e23831c15f7520fef7654.tres"
+
+[deps]
+
+source_file="res://Dialog/signlv5.dialogue"
+dest_files=["res://.godot/imported/signlv5.dialogue-fa256e35fc5e23831c15f7520fef7654.tres"]
+
+[params]
+
+defaults=true

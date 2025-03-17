@@ -21,7 +21,7 @@
 [ext_resource type="Resource" uid="uid://bh4o4blsmpuax" path="res://Dialog/NPCKakek.dialogue" id="18_r3mu4"]
 [ext_resource type="PackedScene" uid="uid://dpdcf0w38qtr" path="res://sceen/aset_sceen/books.tscn" id="20_syule"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_05uya"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_syule"]
 texture = ExtResource("1_1cdp5")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -175,7 +175,7 @@ texture = ExtResource("1_1cdp5")
 2:4/size_in_atlas = Vector2i(3, 3)
 2:4/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7ns0i"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aista"]
 texture = ExtResource("2_imwkp")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
@@ -286,14 +286,14 @@ texture = ExtResource("2_imwkp")
 11:5/0 = 0
 11:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r3mu4"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8biva"]
 texture = ExtResource("3_7xsl4")
 0:0/0 = 0
 0:1/0 = 0
 1:0/0 = 0
 1:1/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l7ly7"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kskqc"]
 texture = ExtResource("4_ahrsm")
 1:0/0 = 0
 2:0/0 = 0
@@ -763,7 +763,7 @@ texture = ExtResource("4_ahrsm")
 6:31/0 = 0
 7:31/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_syule"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_m30dm"]
 texture = ExtResource("5_1l87j")
 0:0/size_in_atlas = Vector2i(2, 2)
 0:0/animation_columns = 8
@@ -779,11 +779,11 @@ texture = ExtResource("5_1l87j")
 
 [sub_resource type="TileSet" id="TileSet_aista"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_05uya")
-sources/1 = SubResource("TileSetAtlasSource_7ns0i")
-sources/2 = SubResource("TileSetAtlasSource_r3mu4")
-sources/5 = SubResource("TileSetAtlasSource_syule")
-sources/3 = SubResource("TileSetAtlasSource_l7ly7")
+sources/0 = SubResource("TileSetAtlasSource_syule")
+sources/1 = SubResource("TileSetAtlasSource_aista")
+sources/2 = SubResource("TileSetAtlasSource_8biva")
+sources/5 = SubResource("TileSetAtlasSource_m30dm")
+sources/3 = SubResource("TileSetAtlasSource_kskqc")
 
 [sub_resource type="SystemFont" id="SystemFont_8biva"]
 
@@ -936,9 +936,6 @@ dialogue_resource = ExtResource("17_7ns0i")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D/Actionable"]
 shape = SubResource("RectangleShape2D_7ns0i")
 
-[node name="Finish" parent="." instance=ExtResource("17_l7ly7")]
-position = Vector2(1044, -32)
-
 [node name="Npckakek" parent="." instance=ExtResource("10_7xsl4")]
 position = Vector2(285, -21)
 
@@ -954,6 +951,10 @@ position = Vector2(18, -29)
 
 [node name="Books2" parent="." instance=ExtResource("20_syule")]
 position = Vector2(485, -14)
+
+[node name="Finish" parent="." instance=ExtResource("17_l7ly7")]
+position = Vector2(1140, -32)
+scale = Vector2(0.889196, 0.889196)
 
 [node name="Books3" parent="." instance=ExtResource("20_syule")]
 position = Vector2(856, -45)

@@ -7,6 +7,8 @@ static var levels = [
 	"res://sceen/Level/level1.tscn",
 	"res://sceen/Level/level_2.tscn",
 	"res://sceen/Level/level_3.tscn",
+	"res://sceen/Level/level_4.tscn",
+	"res://sceen/Level/level_5.tscn",
 ]
 
 static var current_level_index = 0  # Indeks level saat ini (juga static agar tidak ter-reset)
