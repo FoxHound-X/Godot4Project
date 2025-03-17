@@ -1,0 +1,30 @@
+~ start
+Dyan: [speed=0.4]Hei.. Kau Kakek Itu kan?....
+Kakek: [speed=0.4]Kau Tau Aku Dari Seorang perajurit Berkuda Bukan?
+Kakek: [speed=0.4]Baiklah Bapa Yang Ingin Kamu Tanyakan? => Menu
+
+~ Menu
+- Kenapa Aku Bisa Terjebak Di Dunia ini? => Info
+- Bagaimana Cara Keluar Dari Sini? => CaraKeluar
+- Eumm Gak Ada => END
+
+~ Info
+Kakek: [speed=0.4]Baiklah Jadi kau ingin Mengetahui itu?
+Kakek: [speed=0.4]Kamu bisa berada di sini di karenakan suatu hal yang sulit untuk di jelaskan
+Kakek: [speed=0.4]singkat nya kamu di sini karena sesuatu telah memilihmu untuk menyelamatkan dunia
+Dyan: [speed=0.4].... Maksud nya menyelamatkan dunia?..
+Kakek: [speed=0.4]... ya.. kamu akan melawan Adharma yang sedang menguasai dunia saat ini
+Kakek: [speed=0.4]kau lihat di sekitar terlihat baik baik saja bukan?.. Tidak.. Kita sedang terancam
+Dyan: [speed=0.4].... Jadi aku harus melawan kejahatan, Bukan begitu?..
+Kakek: [speed=0.4]ya.. kamu harus atau kehidupan modern yang kamu tempati itu tidak ada selamanya..
+Dyan: [speed=0.4]damn...
+=> Menu
+
+~ CaraKeluar
+Kakek: [speed=0.4]Kamu Harus Mengumpulkan 6 Buku lagi. Tapi ini bukan Berarti Kamu keluar
+Kakek: [speed=0.4]Kamu Hanya Di Beri Misi Baru dan jika Kamu mampu Menyelesaikan nya, maka kamu bisa keluar
+Dyan: [speed=0.4]..... Anjeer 6 Buku Lagi woilah.. Ah Sudahlah Jalanin ajah
+Dyan: [speed=0.4]"Nama Nya Juga Idup, Ada Aja Cobaan"
+=> END 
+
+=> END

@@ -396,9 +396,6 @@ position = Vector2(916, 2)
 [node name="Enemy4" parent="." instance=ExtResource("8_hbhcp")]
 position = Vector2(1809, -23)
 
-[node name="Finish" parent="." instance=ExtResource("11_b4yot")]
-position = Vector2(2136, -17)
-
 [node name="Sign" parent="." instance=ExtResource("12_lpscj")]
 position = Vector2(2008, -18)
 
@@ -407,3 +404,6 @@ dialogue_resource = ExtResource("15_i05e4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sign/Actionable"]
 shape = SubResource("RectangleShape2D_lpscj")
+
+[node name="Finish" parent="." instance=ExtResource("11_b4yot")]
+position = Vector2(2149, -18)

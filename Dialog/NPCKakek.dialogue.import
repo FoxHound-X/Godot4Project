@@ -1,0 +1,15 @@
+[remap]
+
+importer="dialogue_manager_compiler_14"
+type="Resource"
+uid="uid://bh4o4blsmpuax"
+path="res://.godot/imported/NPCKakek.dialogue-25496df4ae77f8f641e75512d42d1ff2.tres"
+
+[deps]
+
+source_file="res://Dialog/NPCKakek.dialogue"
+dest_files=["res://.godot/imported/NPCKakek.dialogue-25496df4ae77f8f641e75512d42d1ff2.tres"]
+
+[params]
+
+defaults=true
