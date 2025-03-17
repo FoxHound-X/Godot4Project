@@ -1,9 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://bswjrsjvruje0"]
+[gd_scene load_steps=7 format=3 uid="uid://d1djbrywa1x50"]
 
-[ext_resource type="Script" uid="uid://bhhcjmlvclyfr" path="res://code/intro.gd" id="1_wpvl0"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cyoul"]
-load_path = "res://.godot/imported/Your paragraph text.png-b79fc279c589b2e88ac2d8d255c4fbda.ctex"
+[ext_resource type="Texture2D" uid="uid://yxnkgl2cdtnp" path="res://sceen/end/EndSceen/3.png" id="1_ka5jg"]
+[ext_resource type="Script" uid="uid://0l8ra84mgqgc" path="res://sceen/end/end_2.gd" id="1_kqu1r"]
 
 [sub_resource type="Animation" id="Animation_ye02n"]
 length = 0.001
@@ -59,16 +57,13 @@ _data = {
 &"faded out": SubResource("Animation_se21h")
 }
 
-[node name="Intro" type="Node2D"]
-script = ExtResource("1_wpvl0")
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(573, 323)
+[node name="End2" type="Node2D"]
+script = ExtResource("1_kqu1r")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(575, 326)
+position = Vector2(575, 357)
 scale = Vector2(1.067, 1)
-texture = SubResource("CompressedTexture2D_cyoul")
+texture = ExtResource("1_ka5jg")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_left = -96.0

@@ -14,4 +14,4 @@ func _on_button_pressed() -> void:
 
 func _on_timer_timeout() -> void:
 	Engine.time_scale = 1
-	get_tree().change_scene_to_file("res://sceen/Materi/materilevel1/misi1.tscn")
+	get_tree().change_scene_to_file("res://sceen/Level/level1.tscn")

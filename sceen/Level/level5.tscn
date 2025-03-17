@@ -1,24 +1,24 @@
-[gd_scene load_steps=27 format=3 uid="uid://dt2ghewsiajoc"]
+[gd_scene load_steps=27 format=3 uid="uid://ccdvy7iocbt51"]
 
-[ext_resource type="Texture2D" uid="uid://b764aiyvtkrw1" path="res://rsc/Village/Background_2.png" id="1_p78a4"]
-[ext_resource type="Texture2D" uid="uid://bsm6w8olkspi0" path="res://rsc/brackeys_platformer_assets/sprites/world_tileset.png" id="2_tnks7"]
-[ext_resource type="Texture2D" uid="uid://g8vo2e2tkaf7" path="res://rsc/Cave/Tiles.png" id="3_veokb"]
-[ext_resource type="Texture2D" uid="uid://8shv5mnvxty7" path="res://rsc/Cave/Background.png" id="4_8rtg6"]
-[ext_resource type="Texture2D" uid="uid://71ndommreptb" path="res://rsc/Village/Tiles.png" id="5_45g7v"]
-[ext_resource type="Texture2D" uid="uid://ctuwq84tmpctt" path="res://rsc/Cave/Water.png" id="6_nwhof"]
-[ext_resource type="PackedScene" uid="uid://dye0r0p6401ac" path="res://sceen/aset_sceen/player.tscn" id="7_bxpqb"]
-[ext_resource type="Script" uid="uid://byl3fvqg0ukl6" path="res://code/system.gd" id="8_4vosh"]
-[ext_resource type="PackedScene" uid="uid://thag4ryugnwv" path="res://sceen/aset_sceen/killzone.tscn" id="9_3yi1l"]
-[ext_resource type="PackedScene" uid="uid://bnmaj1gstw3vg" path="res://sceen/aset_sceen/npckendra.tscn" id="10_tdb43"]
-[ext_resource type="PackedScene" uid="uid://crcceu37nv2l" path="res://sceen/aset_sceen/actionable.tscn" id="11_qgesf"]
-[ext_resource type="PackedScene" uid="uid://dxlbt2gksxeav" path="res://sceen/aset_sceen/sign.tscn" id="12_1hlpx"]
-[ext_resource type="Resource" uid="uid://dnn0dnnrmx0hg" path="res://Dialog/Kaindra.dialogue" id="12_8rtg6"]
-[ext_resource type="PackedScene" uid="uid://dgf436wd4ximr" path="res://sceen/aset_sceen/finish1.tscn" id="13_lgeol"]
-[ext_resource type="Resource" uid="uid://loa1u4ij01pw" path="res://Dialog/signlv5.dialogue" id="14_45g7v"]
-[ext_resource type="PackedScene" uid="uid://dpdcf0w38qtr" path="res://sceen/aset_sceen/books.tscn" id="14_tnks7"]
+[ext_resource type="Texture2D" uid="uid://b764aiyvtkrw1" path="res://rsc/Village/Background_2.png" id="1_5oab0"]
+[ext_resource type="PackedScene" uid="uid://dgf436wd4ximr" path="res://sceen/aset_sceen/finish1.tscn" id="2_mr6ms"]
+[ext_resource type="Texture2D" uid="uid://bsm6w8olkspi0" path="res://rsc/brackeys_platformer_assets/sprites/world_tileset.png" id="3_0xw7a"]
+[ext_resource type="Texture2D" uid="uid://g8vo2e2tkaf7" path="res://rsc/Cave/Tiles.png" id="4_rld5s"]
+[ext_resource type="Texture2D" uid="uid://8shv5mnvxty7" path="res://rsc/Cave/Background.png" id="5_6wecu"]
+[ext_resource type="Texture2D" uid="uid://71ndommreptb" path="res://rsc/Village/Tiles.png" id="6_dxlex"]
+[ext_resource type="Texture2D" uid="uid://ctuwq84tmpctt" path="res://rsc/Cave/Water.png" id="7_v604c"]
+[ext_resource type="PackedScene" uid="uid://dye0r0p6401ac" path="res://sceen/aset_sceen/player.tscn" id="8_f5yie"]
+[ext_resource type="Script" uid="uid://byl3fvqg0ukl6" path="res://code/system.gd" id="9_20pga"]
+[ext_resource type="PackedScene" uid="uid://thag4ryugnwv" path="res://sceen/aset_sceen/killzone.tscn" id="10_17gcm"]
+[ext_resource type="PackedScene" uid="uid://bnmaj1gstw3vg" path="res://sceen/aset_sceen/npckendra.tscn" id="11_agsyi"]
+[ext_resource type="PackedScene" uid="uid://crcceu37nv2l" path="res://sceen/aset_sceen/actionable.tscn" id="12_sw2qd"]
+[ext_resource type="Resource" uid="uid://dnn0dnnrmx0hg" path="res://Dialog/Kaindra.dialogue" id="13_d5ox5"]
+[ext_resource type="PackedScene" uid="uid://dxlbt2gksxeav" path="res://sceen/aset_sceen/sign.tscn" id="14_cbokq"]
+[ext_resource type="Resource" uid="uid://loa1u4ij01pw" path="res://Dialog/signlv5.dialogue" id="15_nbwxa"]
+[ext_resource type="PackedScene" uid="uid://dpdcf0w38qtr" path="res://sceen/aset_sceen/books.tscn" id="16_685hq"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8rtg6"]
-texture = ExtResource("2_tnks7")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_at1qq"]
+texture = ExtResource("3_0xw7a")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -171,8 +171,8 @@ texture = ExtResource("2_tnks7")
 2:4/size_in_atlas = Vector2i(3, 3)
 2:4/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_45g7v"]
-texture = ExtResource("3_veokb")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qvxf4"]
+texture = ExtResource("4_rld5s")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -282,15 +282,15 @@ texture = ExtResource("3_veokb")
 11:5/0 = 0
 11:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nwhof"]
-texture = ExtResource("4_8rtg6")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0mvfw"]
+texture = ExtResource("5_6wecu")
 0:0/0 = 0
 0:1/0 = 0
 1:0/0 = 0
 1:1/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bxpqb"]
-texture = ExtResource("5_45g7v")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_p3cbb"]
+texture = ExtResource("6_dxlex")
 1:0/0 = 0
 2:0/0 = 0
 3:0/0 = 0
@@ -759,8 +759,8 @@ texture = ExtResource("5_45g7v")
 6:31/0 = 0
 7:31/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4vosh"]
-texture = ExtResource("6_nwhof")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s8nri"]
+texture = ExtResource("7_v604c")
 0:0/size_in_atlas = Vector2i(2, 2)
 0:0/animation_columns = 8
 0:0/animation_frame_0/duration = 1.0
@@ -773,38 +773,38 @@ texture = ExtResource("6_nwhof")
 0:0/animation_frame_7/duration = 1.0
 0:0/0 = 0
 
-[sub_resource type="TileSet" id="TileSet_jtgro"]
+[sub_resource type="TileSet" id="TileSet_bbudc"]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_8rtg6")
-sources/1 = SubResource("TileSetAtlasSource_45g7v")
-sources/2 = SubResource("TileSetAtlasSource_nwhof")
-sources/5 = SubResource("TileSetAtlasSource_4vosh")
-sources/3 = SubResource("TileSetAtlasSource_bxpqb")
+sources/0 = SubResource("TileSetAtlasSource_at1qq")
+sources/1 = SubResource("TileSetAtlasSource_qvxf4")
+sources/2 = SubResource("TileSetAtlasSource_0mvfw")
+sources/5 = SubResource("TileSetAtlasSource_s8nri")
+sources/3 = SubResource("TileSetAtlasSource_p3cbb")
 
-[sub_resource type="SystemFont" id="SystemFont_703xj"]
+[sub_resource type="SystemFont" id="SystemFont_q0t1b"]
 
-[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_fb1fl"]
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_hjws4"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_8y88s"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b7dio"]
 size = Vector2(23.0717, 63.7243)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_gw5q6"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_swkqd"]
 size = Vector2(20, 18)
 
-[node name="Level5" type="StaticBody2D"]
+[node name="Level5" type="Area2D"]
 
 [node name="Background2" type="Sprite2D" parent="."]
 position = Vector2(743, -200)
 scale = Vector2(4.31754, 3.51103)
-texture = ExtResource("1_p78a4")
+texture = ExtResource("1_5oab0")
 
-[node name="Finish2" parent="." instance=ExtResource("13_lgeol")]
+[node name="Finish2" parent="." instance=ExtResource("2_mr6ms")]
 position = Vector2(1415, 50)
 scale = Vector2(0.747395, 0.747395)
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(11, 59)
-tile_set = SubResource("TileSet_jtgro")
+tile_set = SubResource("TileSet_bbudc")
 format = 2
 layer_0/name = "Background"
 layer_1/name = "Mid"
@@ -812,7 +812,7 @@ layer_1/tile_data = PackedInt32Array(-393224, 0, 0, -393223, 0, 0, -393222, 0, 0
 layer_2/name = "Furnitute"
 layer_2/tile_data = PackedInt32Array(-655355, 1114115, 10, -589819, 1114115, 11, -524283, 1114115, 12, -655339, 1114115, 10, -589803, 1114115, 11, -524267, 1114115, 12, -393176, 1114115, 10, -327640, 1114115, 11, -262104, 1114115, 12, -196537, 1114115, 10, -131001, 1114115, 11, -65465, 1114115, 12, -131012, 1310723, 12, -262090, 1310723, 12, -262092, 1310723, 12, -458718, 1310723, 12, -393180, 1310723, 12, -524268, 1310723, 12, -524281, 1310723, 12, -458758, 1310723, 12, -458757, 1310723, 12, -524269, 1376259, 12, -524280, 1376259, 12, -393179, 1376259, 12, -327641, 1376259, 12, -327642, 1376259, 12, -262091, 1376259, 12, -65474, 1376259, 12, -65473, 1376259, 12, -65467, 1441795, 12, -65471, 1310723, 12, -262096, 1441795, 12, -262101, 1441795, 12, -262098, 1310723, 12, -262097, 1376259, 12, -262093, 1376259, 12, -65461, 1114115, 12, -65460, 1376259, 12, -65459, 1376259, 12, -65458, 1441795, 12, -130997, 1114115, 11, -65462, 1441795, 12, -65463, 1310723, 12)
 
-[node name="Player" parent="TileMap" instance=ExtResource("7_bxpqb")]
+[node name="Player" parent="TileMap" instance=ExtResource("8_f5yie")]
 position = Vector2(-35, -145)
 collision_layer = 3
 
@@ -826,7 +826,7 @@ position_smoothing_enabled = true
 [node name="System" type="Node2D" parent="TileMap/Player/Camera2D"]
 unique_name_in_owner = true
 position = Vector2(6, 31)
-script = ExtResource("8_4vosh")
+script = ExtResource("9_20pga")
 
 [node name="poin" type="Label" parent="TileMap/Player/Camera2D/System"]
 offset_left = -35.0
@@ -834,7 +834,7 @@ offset_top = -37.0
 offset_right = 54.0
 offset_bottom = -14.0
 scale = Vector2(0.559025, 0.79375)
-theme_override_fonts/font = SubResource("SystemFont_703xj")
+theme_override_fonts/font = SubResource("SystemFont_q0t1b")
 theme_override_font_sizes/font_size = 11
 text = "Book:  0/3"
 horizontal_alignment = 1
@@ -842,40 +842,40 @@ vertical_alignment = 1
 autowrap_mode = 2
 metadata/_edit_use_anchors_ = true
 
-[node name="Killzone" parent="TileMap" instance=ExtResource("9_3yi1l")]
+[node name="Killzone" parent="TileMap" instance=ExtResource("10_17gcm")]
 position = Vector2(94, -246)
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TileMap/Killzone"]
 position = Vector2(14, 283)
-shape = SubResource("WorldBoundaryShape2D_fb1fl")
+shape = SubResource("WorldBoundaryShape2D_hjws4")
 
-[node name="Npckendra" parent="." instance=ExtResource("10_tdb43")]
+[node name="Npckendra" parent="." instance=ExtResource("11_agsyi")]
 position = Vector2(823, -8)
 scale = Vector2(0.612012, 0.612012)
 
-[node name="Actionable" parent="Npckendra" instance=ExtResource("11_qgesf")]
-dialogue_resource = ExtResource("12_8rtg6")
+[node name="Actionable" parent="Npckendra" instance=ExtResource("12_sw2qd")]
+dialogue_resource = ExtResource("13_d5ox5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Npckendra/Actionable"]
 position = Vector2(-1.53613, -0.816978)
-shape = SubResource("RectangleShape2D_8y88s")
+shape = SubResource("RectangleShape2D_b7dio")
 
-[node name="StaticBody2D" parent="." instance=ExtResource("12_1hlpx")]
+[node name="StaticBody2D" parent="." instance=ExtResource("14_cbokq")]
 position = Vector2(1243, 47)
 
-[node name="Actionable" parent="StaticBody2D" instance=ExtResource("11_qgesf")]
-dialogue_resource = ExtResource("14_45g7v")
+[node name="Actionable" parent="StaticBody2D" instance=ExtResource("12_sw2qd")]
+dialogue_resource = ExtResource("15_nbwxa")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D/Actionable"]
 position = Vector2(0, 1)
-shape = SubResource("RectangleShape2D_gw5q6")
+shape = SubResource("RectangleShape2D_swkqd")
 
-[node name="Books" parent="." instance=ExtResource("14_tnks7")]
+[node name="Books" parent="." instance=ExtResource("16_685hq")]
 position = Vector2(115, -62)
 
-[node name="Books2" parent="." instance=ExtResource("14_tnks7")]
+[node name="Books2" parent="." instance=ExtResource("16_685hq")]
 position = Vector2(561, -76)
 
-[node name="Books3" parent="." instance=ExtResource("14_tnks7")]
+[node name="Books3" parent="." instance=ExtResource("16_685hq")]
 position = Vector2(945, -7)

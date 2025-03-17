@@ -11,14 +11,14 @@ config_version=5
 [application]
 
 config/name="Dharmasastra : Demo"
-run/main_scene="uid://c47a5tn2xq1ir"
+run/main_scene="uid://bswjrsjvruje0"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
 [autoload]
 
-Bgms="*res://rsc/music/bgms.tscn"
 DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+GlobalMusic="*res://GlobalMusic.gd"
 
 [dialogue_manager]
 
