@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://c5cw44yvbe4r7"]
 
 [ext_resource type="Script" uid="uid://brh46xp6cbdre" path="res://sceen/end/end_4.gd" id="1_rvtvw"]
-[ext_resource type="Texture2D" uid="uid://cr83aembeps3a" path="res://sceen/end/EndSceen/4.png" id="2_t3y0b"]
+[ext_resource type="Texture2D" uid="uid://b0qdtljtn2o6l" path="res://rsc/Copy of Your paragraph text.png" id="2_rvtvw"]
 
 [sub_resource type="Animation" id="Animation_ye02n"]
 length = 0.001
@@ -63,7 +63,7 @@ script = ExtResource("1_rvtvw")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(575, 357)
 scale = Vector2(1.067, 1)
-texture = ExtResource("2_t3y0b")
+texture = ExtResource("2_rvtvw")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_left = -96.0
